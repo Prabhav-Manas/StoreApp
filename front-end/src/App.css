@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+input {
+  border: none !important;
+  border-bottom: solid 1px #000 !important;
+  border-radius: 0px !important;
+}
+input:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.eyeInput {
+  position: relative;
+}
+.eyeIcon {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.submitBtn {
+  border-radius: 0px !important;
+}
+.formPosition {
+  position: relative;
+}
+.addProdBtnPosition {
+  position: absolute;
+  right: 40px;
+}
+.searchBox input {
+  border: solid 1px #81c79d !important;
+  height: 50px;
+  width: 680px;
+}
