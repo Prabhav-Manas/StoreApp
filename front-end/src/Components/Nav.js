@@ -8,6 +8,7 @@ const MyNav = () => {
   const auth = localStorage.getItem("user");
   const navigate = useNavigate();
 
+  // ---LogOut---
   const logOut = () => {
     localStorage.clear();
     navigate("/signIn");
